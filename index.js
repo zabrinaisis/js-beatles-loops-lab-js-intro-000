@@ -11,10 +11,14 @@ function johnLennonFacts(factArray) {
   var newFacts= [];
   while (num < factArray.length) {
     newFacts.push(factArray[num] + "!!!");
+    num++;
   }
   return (newFacts);
 }
 
 function iLoveTheBeatles(num) {
-  
+  var loveArray = [];
+  do {
+    loveArray.push("I love the Beatles!")
+  }
 }
